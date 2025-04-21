@@ -1,0 +1,39 @@
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    max-width: 440px;
+}
+
+li {
+    background-color: #f6f6fe;
+    padding: 16px;
+}
+
+li ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+li ul li {
+    padding: 8px 16px;
+    border: solid 1px #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}

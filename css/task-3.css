@@ -1,0 +1,19 @@
+input {
+    position: static;
+    width: 360px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 4px;
+}
+
+h1 {
+    color: rgb(46, 47, 66);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+}
