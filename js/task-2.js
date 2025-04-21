@@ -28,7 +28,7 @@ const images = [
 const listGalleryElem = document.querySelector(".gallery");
 
 function imageTemplate(image) {
-  return `<li><img src="${image.url}" alt="${image.alt}" style="width: 360px; height: 300px;"</li>`;
+  return `<li><img src="${image.url}" alt="${image.alt}" style="width: 360px; height: 300px;" /></li>`;
 }
 function imagesTemplate(images) {
   return images.map(imageTemplate).join("\n");
